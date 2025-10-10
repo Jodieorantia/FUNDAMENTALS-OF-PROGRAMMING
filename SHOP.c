@@ -60,10 +60,12 @@ int main() {
         scanf(" %c", &choice);
 
     } while(choice == 'Y');
+    
     printf("\nThank you for shopping!\n");
     
     return 0;
 
 }
+
 
 
