@@ -51,7 +51,7 @@ int main() {
         scanf("%f", &cash);
 
         if(cash < total) {
-            printf("\nInsufficient payment! You are short by P%.2f\n", -change);
+            printf("\nInsufficient payment! You are short by P%.2f\n", total - cash);
         } else {
             change = cash - total;
             printf("Your change: P%.2f\n", change);
@@ -65,4 +65,5 @@ int main() {
     printf("\nThank you for shopping!\n");
     
     return 0;
+
 }
