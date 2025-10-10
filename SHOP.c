@@ -56,7 +56,6 @@ int main() {
             change = cash - total;
             printf("Your change: P%.2f\n", change);
         }
-
         printf("\nDo you want to purchase again (Y/N)? ");
         scanf(" %c", &choice);
 
@@ -67,3 +66,4 @@ int main() {
     return 0;
 
 }
+
